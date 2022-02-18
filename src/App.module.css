@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.titolo{
+    @apply p-1 text-blue-800 font-bold;
+}
+
+.prodottiItem{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.prodottiBtnDelete{
+    @apply p-1 text-red-800 font-bold;
+}
